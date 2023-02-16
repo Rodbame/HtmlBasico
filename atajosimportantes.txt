@@ -1,0 +1,4 @@
+Atajos importantes 
+ctrl + k + c = comentar en HTML
+ctrl + k + u = quitar comentario en HTML
+alt + u = codigo se adapta a tu ventana
