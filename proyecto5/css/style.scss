@@ -43,6 +43,12 @@ body{
         flex-direction: column;
         align-items: center;
         border-bottom: 1px solid var(--color2);
+
+        &-text{
+            font-size: 1.5rem;
+            font-weight:500;
+        }
+
      &-contentimg{
          border: 5px solid #F67C55;
          border-radius: 50%;
