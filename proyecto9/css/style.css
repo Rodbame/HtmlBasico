@@ -1,4 +1,6 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -23,7 +25,32 @@ body {
   height: 450px;
   border-radius: 20px;
   overflow: hidden;
+  position: relative;
 }
-.container .imgBx {
+.container .card .imgBx {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  height: 220px;
+  z-index: 1000;
+}
+.container .card .imgBx img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 340px;
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+.container .card .contentBx {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: red;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+}
+.container .card .contentBx h2 {
   position: absolute;
 }/*# sourceMappingURL=style.css.map */
