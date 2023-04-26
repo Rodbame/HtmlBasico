@@ -1,0 +1,29 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #1f1d2a;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+}
+.container .card {
+  background: #232323;
+  min-width: 320px;
+  height: 450px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.container .imgBx {
+  position: absolute;
+}/*# sourceMappingURL=style.css.map */
